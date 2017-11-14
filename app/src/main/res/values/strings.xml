@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">驴妈妈</string>
+    <string name="app_a">商品：0</string>
+    <string name="app_b">店铺：0</string>
+    <string name="app_c">我的足迹</string>
+    <string name="app_Number">15200000001</string>
+    <string name="app_FullOrder">全部订单</string>
+    <string name="app_MyProperty">我的财产</string>
+    <string name="app_Address">收货地址</string>
+    <string name="app_Settings">系统设置</string>
+    <string name="app_Fk">未付款</string>
+    <string name="app_Fh">待发货</string>
+    <string name="app_Sh">待收货</string>
+    <string name="app_Pj">待评价</string>
+    <string name="app_fK">预付款</string>
+    <string name="app_cZ">充值卡</string>
+    <string name="app_dJ">代金券</string>
+    <string name="app_hB">红包</string>
+</resources>

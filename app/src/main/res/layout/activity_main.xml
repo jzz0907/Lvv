@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.lv.mama.lv.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/la"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            style="@style/Nav"
+            android:id="@+id/mainRadioGroup">
+
+            <RadioButton
+
+
+                android:text="首页"
+                style="@style/RNav"
+                android:textColor="@drawable/hometext"
+                android:id="@+id/homeRadioButton"
+                android:drawableTop="@drawable/home"
+                android:checked="true"
+                />
+
+            <RadioButton
+                android:textColor="@drawable/hometext"
+                android:text="分类"
+                style="@style/RNav"
+                android:id="@+id/classRadioButton"
+                android:drawableTop="@drawable/cla"/>
+
+            <RadioButton
+                android:textColor="@drawable/hometext"
+                android:text="购物车"
+                style="@style/RNav"
+                android:id="@+id/cartRadioButton"
+                android:drawableTop="@drawable/cart"/>
+
+            <RadioButton
+                android:textColor="@drawable/hometext"
+                android:text="个人"
+                style="@style/RNav"
+                android:id="@+id/userRadioButton"
+                android:drawableTop="@drawable/user"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/la">
+
+    </FrameLayout>
+
+</RelativeLayout>
